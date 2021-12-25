@@ -14,5 +14,13 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git https://github.com/AlexZhuo/luci-app-bandwidthd.git' >>feeds.conf.default
+echo 'src-git https://github.com/destan19/OpenAppFilter.git' >>feeds.conf.default
+echo 'src-git https://github.com/esirplayground/luci-app-poweroff.git' >>feeds.conf.default
+echo 'src-git https://github.com/frainzy1477/luci-app-clash.git' >>feeds.conf.default
+echo 'src-git https://github.com/garypang13/luci-theme-edge.git' >>feeds.conf.default
+echo 'src-git https://github.com/jerrykuku/openwrt-package.git' >>feeds.conf.default
+echo 'src-git https://github.com/kenzok8/openwrt-packages.git' >>feeds.conf.default
+echo 'src-git opentopd  https://github.com/sirpdboy/sirpdboy-package' >>feeds.conf.default
